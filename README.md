@@ -1,1 +1,1 @@
-# Project_7-Personal-diary-
+# Project: Personal_Diary_Management_System
