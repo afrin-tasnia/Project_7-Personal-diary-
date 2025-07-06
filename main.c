@@ -25,7 +25,9 @@ int main() {
 }
 
 void displayMenu() {
-    printf("\n--- Personal Diary Management System ---\n");
+    printf("     |--------------------------------------|\n");
+    printf("     |...Personal Diary Management System...|\n");
+    printf("     |--------------------------------------|\n\n");
     printf("1. Add New Entry\n");
     printf("2. View All Entries\n");
     printf("3. Search Entry\n");
