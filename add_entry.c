@@ -20,5 +20,5 @@ void addEntry() {
     fprintf(file, "Date: %s\nEntry: %s\n\n", date, entry);
     fclose(file);
 
-    printf("Entry Saved Successfully!\n");
+    printf("Entry saved successfully!\n");
 }
