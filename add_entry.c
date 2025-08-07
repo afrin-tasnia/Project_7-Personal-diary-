@@ -2,7 +2,7 @@
 #include "diary.h"
 
 void addEntry() {
-    FIL *file = fopen("diary.txt", "a");  // Append mode
+    FILE *file = fopen("diary.txt", "a");  // Append mode
 
     if (file == NULL) {
         printf("Error opening file!\n");
