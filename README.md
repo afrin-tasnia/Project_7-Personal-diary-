@@ -15,7 +15,7 @@ The system allows users to manage diary entries by performing the following oper
 
 ##  Group Members
 
-- **MD Abdul Bashar Nirob**
+- **MD Abul Bashar Nirob**
 - **Jannatul Islam Eshita**
 - **Sara Tasnim**
 - **Tashin Binte Taiba**
