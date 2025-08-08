@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 // Function Declarations
 void displayMenu();
@@ -15,5 +16,7 @@ void editEntry();
 void deleteEntry();
 void encryptFile();
 void decryptFile();
+void backupDiary();  
 
 #endif
+
