@@ -14,7 +14,7 @@ void addEntry() {
 
     printf("Enter date (DD-MM-YYYY): ");
     scanf("%s", date);
-    printf("Write your diary entry (max 1000 chars):\n");
+    printf("Write your diary entry:\n");
     scanf(" %[^\n]s", entry);  // Read until newline
 
     fprintf(file, "Date: %s\nEntry: %s\n\n", date, entry);
