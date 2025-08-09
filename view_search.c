@@ -10,7 +10,11 @@ void viewEntries() {
     }
 
     char line[1000];
-    printf("\n--- All Diary Entries ---\n");
+    printf(" _________________________\n");
+    printf("|                         |\n");
+    printf("| !..All Diary Entries..! |\n");
+    printf("|_________________________|\n\n");
+
     while (fgets(line, sizeof(line), file)) {
         printf("%s", line);
     }
