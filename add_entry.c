@@ -1,5 +1,5 @@
 // add_entry.c
-#include "diary.h
+#include "diary.h"
 
 void addEntry() {
     FILE *file = fopen("diary.txt", "a");  // Append mode
