@@ -1,7 +1,7 @@
 #include "diary.h"
 #include <ctype.h>
 
-// Add this function that's currently missing
+// Edit entry function
 void editEntry() {
     FILE *file = fopen("diary.txt", "r");
     if (file == NULL) {
@@ -58,7 +58,7 @@ void editEntry() {
     }
 }
 
-// Your existing delete function
+// Delete function
 void deleteEntry() {
     FILE *file = fopen("diary.txt", "r");
     if (file == NULL) {
@@ -103,5 +103,6 @@ void deleteEntry() {
         printf("Entry deleted successfully!\n");
     }
 }
+
 
 
