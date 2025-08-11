@@ -6,7 +6,7 @@ void addEntry() {
 
     if (file == NULL) {
         printf("Error opening file!\n");
-        return;
+        return
     }
 
     char date[20];
