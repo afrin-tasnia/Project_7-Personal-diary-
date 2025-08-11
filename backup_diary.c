@@ -34,4 +34,3 @@ void backupDiary() {
     fclose(dest);
     printf("Backup created successfully as: %s\n", backupFilename);
 }
-
