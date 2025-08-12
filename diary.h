@@ -1,3 +1,5 @@
+// diary.h
+
 #ifndef DIARY_H
 #define DIARY_H
 
@@ -17,5 +19,6 @@ void decryptFile();     // Decrypts the diary file
 void backupDiary();     // Creates a backup of the diary file
 
 #endif
+
 
 
