@@ -19,4 +19,24 @@
 #define COLOR_GRAY       8  // Added for backup option
 
 
+void setColor(int color) {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(hConsole, color);
+}
+
+int main() {
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
 
