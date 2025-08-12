@@ -88,3 +88,4 @@ void decryptFile() {
         printf("Error saving decrypted file\n");
     }
 }
+
