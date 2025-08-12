@@ -1,3 +1,5 @@
+// view_search.c
+
 #include "diary.h"
 
 // Function to view all diary entries
@@ -54,3 +56,4 @@ void searchEntry() {
     if (!found) printf("No entry found for %s\n", searchDate);
     fclose(file);
 }
+
