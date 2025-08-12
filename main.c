@@ -25,6 +25,8 @@ void setColor(int color) {
 }
 
 int main() {
+    setlocale(LC_ALL, "");
+    system("chcp 65001");
 
 
 
@@ -36,6 +38,7 @@ int main() {
 
   
 }
+
 
 
 
