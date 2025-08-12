@@ -32,7 +32,7 @@ int main() {
 
     int choice;
     while(1) { // Infinite loop to keep the program running
-        displayMenu(); // Display the main menu
+        displayMenu(); 
         
         // Prompt user for choice
         setColor(COLOR_CYAN);
@@ -60,5 +60,49 @@ int main() {
     }
     return 0;
 }
+
+
+// Function to display the main menu
+void displayMenu() {
+    setColor(COLOR_CYAN);
+
+    // Display header
+    printf(" ________________________________________\n");
+    printf("|                                        |\n");
+    printf("| !..Personal Diary Management System..! |\n");
+    printf("|________________________________________|\n\n");
+
+    // Display menu options with different colors
+    setColor(COLOR_LIME);
+    printf("1. Add New Entry\n");
+
+    setColor(COLOR_TEAL);
+    printf("2. View All Entries\n");
+
+    setColor(COLOR_ORANGE);
+    printf("3. Search Entry\n");
+
+    setColor(COLOR_PINK);
+    printf("4. Edit Entry\n");
+
+    setColor(COLOR_RED);
+    printf("5. Delete Entry\n");
+
+    setColor(COLOR_PURPLE);
+    printf("6. Encrypt Diary File\n");
+
+    setColor(COLOR_YELLOW);
+    printf("7. Decrypt Diary File\n");
+
+    setColor(COLOR_GRAY);
+    printf("8. Backup Diary\n"); 
+
+    setColor(COLOR_BLUE);
+    printf("9. Exit\n");
+
+    setColor(COLOR_WHITE);
+    printf("\n");
+}
+
 
 
